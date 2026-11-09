@@ -1,0 +1,34 @@
+{
+  "name": "discord-bot",
+  "version": "1.0.0",
+  "description": "Multi-purpose Discord bot for Gaming, Coding, Tasks, and Music",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node --max-http-header-size=65536 src/index.js",
+    "deploy": "node src/deploy-commands.js",
+    "setup": "node src/setup.js"
+  },
+  "keywords": [
+    "discord",
+    "discord.js",
+    "bot",
+    "music",
+    "gaming",
+    "coding",
+    "tasks"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@discordjs/voice": "^0.19.2",
+    "@distube/ytdl-core": "^5.2.1",
+    "discord.js": "^14.28.1",
+    "dotenv": "^18.0.9",
+    "ffmpeg-static": "^5.3.0",
+    "libsodium-wrappers": "^0.8.4",
+    "mathjs": "^15.2.0",
+    "opusscript": "^0.0.8",
+    "play-dl": "^1.9.7"
+  }
+}
